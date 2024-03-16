@@ -1,0 +1,3 @@
+Speaker1FirstName Speaker2LastName: This is, um, uh, you know, the first line. I used three filler words.
+Speaker2FirstName Speaker2LastName: So, you sure did. I used one filler word, but "so" is not currently captured.Speaker3FirstName Speaker3LastName: That's, like, pretty good to use one filler word!
+Speaker1FirstName Speaker2LastName: And, you know, we add up filler words even if they are in separate paragraphs.
