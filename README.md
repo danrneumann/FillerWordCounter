@@ -10,6 +10,9 @@ The file is depending on a format like:
 ```
 Speaker1FirstName Speaker2LastName: This is where the words Speaker1FirstName spoke would go.
 ```
+# Shortcomings
+There are no unit tests on this code. 
+
 # What's Next?
 It would be nice to at least have a configuration file that can be used as input. 
 It might also be fun to make it run in Azure cloud.
