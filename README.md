@@ -14,6 +14,6 @@ Speaker1FirstName Speaker2LastName: This is where the words Speaker1FirstName sp
 There are no unit tests on this code. 
 
 # What's Next?
-It would be nice to at least have a configuration file that can be used as input. 
-It might also be fun to make it run in Azure cloud.
-Lastly, the transcript I get from Descript contians the file name as the first row. Currently, that line has to be deleted. Perhaps improving this to ignore any file rows that don't start witht he format "Speaker1FirstName Speaker2LastName:" would be good. 
+* It would be nice to at least have a configuration file that can be used as input. 
+* It might also be fun to make it run in Azure cloud.
+* Lastly, the transcript I get from Descript contians the file name as the first row. Currently, that line has to be deleted. Perhaps improving this to ignore any file rows that don't start witht he format "Speaker1FirstName Speaker2LastName:" would be good. 
