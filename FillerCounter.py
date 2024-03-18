@@ -28,7 +28,7 @@ speaker_filler_word_counts = {}
 
 # Read the transcript file
 # use to be 'transcript.txt' now /Users/dan.neumann/Documents/PythonProjects/FillerCounter/Data/transcript.txt
-with open('/Users/dan.neumann/Documents/PythonProjects/FillerCounter/Data/transcript.txt', 'r', encoding='utf-8') as file:
+with open('./SampleTranscript.txt', 'r', encoding='utf-8') as file:
     transcript = file.read()
 
 # Assuming each speaker segment in the transcript starts with "Speaker Name:"
