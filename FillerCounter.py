@@ -14,6 +14,19 @@ def update_filler_word_counts(current_counts, new_counts):
             current_counts[word] += count
         else:
             current_counts[word] = count
+ 
+#This function is intended to disregard lines that are at the beginning of the transcript but do not start with the expected format of "SpeakerFirstName SpeakerLastName:"
+def find_first_speaker_line(list_of_parts):
+    # This pattern looks for strings that start with any word (word1),
+    # followed by another word (word2), and ending with a colon.
+    pattern = r'^\w+ \w+:'
+    # Loop through the list of parts passed in and return the index of the first speaker
+    for i in range(0, len(list_of_parts)):
+        #if the speaker format is matched, break. If it is not matched, continue.
+        if re.match(pattern, list_of_parts[i]):
+            return(i)
+    # return -1 if no speaker was found
+    return -1
 
 # List of filler words you're interested in
 filler_words = ["uh", "um", "you know", "like"]
