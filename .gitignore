@@ -1,0 +1,7 @@
+# Python Cache #
+./__pycache__
+./Tests/__pycache__
+*.pyc
+
+# Mac system Files #
+*.DS_Store
